@@ -21,7 +21,7 @@ stages:
   displayName: ${{ parameters.channelName }} Publishing
   jobs:
   - template: ../setup-maestro-vars.yml
-    parameters:
+    parameters: 
       BARBuildId: ${{ parameters.BARBuildId }}
       PromoteToChannelIds: ${{ parameters.PromoteToChannelIds }}
 
